@@ -202,9 +202,9 @@ Los casos que indican «datos iniciales» deben ejecutarse en una sesión nueva 
 
 | Integrante | Usuario GitHub | Funcionalidad desarrollada | Enlace al commit |
 |---|---|---|---|
-| Por completar | Por completar | Por completar | https://github.com/IvethCastro/Taller-semana-8/commits/main/ |
-| Por completar | Por completar | Por completar | Por completar |
-| Por completar | Por completar | Por completar | Por completar |
+| Iveth Castro | IvethCastro | Ventana y R6 | https://github.com/IvethCastro/Taller-semana-8/commits/main/ |
+| Zaskia Sunta | Zyvoxw | R3 y R4 | https://github.com/IvethCastro/Taller-semana-8/commits/main/?author=Zyvoxw|
+| Fareed Guzmán | FareedGuzmán | R2 y R5 | https://github.com/IvethCastro/Taller-semana-8/commits/main/?author=fareed-guzman |
 
 Verificar que GitHub asocie los commits a sus cuentas; si utilizan Git local, el correo configurado debe estar asociado a la cuenta correspondiente. El número de commits no sustituye la explicación del aporte.
 
