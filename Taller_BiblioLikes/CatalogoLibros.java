@@ -21,6 +21,46 @@ public class CatalogoLibros {
         }
     }
 
+    //
+    public void registrar(Libro libro) {
+        if (libro == null) {
+            throw new IllegalArgumentException("No hay datos para registrar.");
+        }
+        if (libro.getCodigo() <= 0) {
+            throw new IllegalArgumentException("El código debe ser positivo.");
+        }
+        if (libro.getTitulo() == null || libro.getTitulo().trim().isEmpty()) {
+            throw new IllegalArgumentException("El título es obligatorio.");
+        }
+        if (libro.getAutor() == null || libro.getAutor().trim().isEmpty()) {
+            throw new IllegalArgumentException("El autor es obligatorio.");
+        }
+        if (libro.getGenero() == null || libro.getGenero().trim().isEmpty()) {
+            throw new IllegalArgumentException("El género es obligatorio.");
+        }
+        int anioActual = java.time.Year.now().getValue();
+        if (libro.getAnio() < 1 || libro.getAnio() > anioActual) {
+            throw new IllegalArgumentException("El año debe estar entre 1 y " + anioActual + ".");
+        }
+        if (libro.getMeGusta() != 0) {
+            throw new IllegalArgumentException("Un libro nuevo empieza con 0 me gusta.");
+        }
+        if (buscarIndicePorCodigo(libro.getCodigo()) != -1) {
+            throw new IllegalArgumentException("Ya existe un libro con el código " + libro.getCodigo() + ".");
+        }
+        libros.add(libro);
+        ordenarPorCodigo(); // el nuevo puede ser menor que los demás, por ejemplo 999
+    }
+
+    //
+    public void darMeGusta(int codigo) {
+        int indice = buscarIndicePorCodigo(codigo);
+        if (indice == -1) {
+            throw new IllegalArgumentException("No existe un libro con el código " + codigo + ".");
+        }
+        libros.get(indice).incrementarMeGusta();
+    }
+
     public int obtenerCantidadLibros() {
         return libros.size();
     }
