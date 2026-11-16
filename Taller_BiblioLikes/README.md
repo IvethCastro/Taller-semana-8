@@ -202,7 +202,7 @@ Los casos que indican «datos iniciales» deben ejecutarse en una sesión nueva 
 
 | Integrante | Usuario GitHub | Funcionalidad desarrollada | Enlace al commit |
 |---|---|---|---|
-| Iveth Castro | IvethCastro | Ventana y R6 | https://github.com/IvethCastro/Taller-semana-8/commits/main/ |
+| Iveth Castro | IvethCastro | Ventana y R6 | https://github.com/IvethCastro/Taller-semana-8/commits/main/?author=IvethCastro |
 | Zaskia Sunta | Zyvoxw | R3 y R4 | https://github.com/IvethCastro/Taller-semana-8/commits/main/?author=Zyvoxw|
 | Fareed Guzmán | FareedGuzmán | R2 y R5 | https://github.com/IvethCastro/Taller-semana-8/commits/main/?author=fareed-guzman |
 
