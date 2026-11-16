@@ -202,7 +202,7 @@ Los casos que indican «datos iniciales» deben ejecutarse en una sesión nueva 
 
 | Integrante | Usuario GitHub | Funcionalidad desarrollada | Enlace al commit |
 |---|---|---|---|
-| Por completar | Por completar | Por completar | Por completar |
+| Por completar | Por completar | Por completar | https://github.com/IvethCastro/Taller-semana-8/commits/main/ |
 | Por completar | Por completar | Por completar | Por completar |
 | Por completar | Por completar | Por completar | Por completar |
 
